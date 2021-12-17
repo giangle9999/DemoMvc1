@@ -17,6 +17,7 @@ namespace netCore.Controllers
         public AccountsController(MvcMovieContext context)
         {
             _context = context;
+            
         }
 
         // GET: Accounts
